@@ -10,3 +10,17 @@
 
 3. To check the configuration, run :  
     `git config --global --list`
+
+---
+
+## When you open a repository in Github
+```
+echo "# contents" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/goosamsf/repo_name.git
+git push -u origin main
+
+```
